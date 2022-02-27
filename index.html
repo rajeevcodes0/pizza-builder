@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="crust-area">
+            <!-- the container below is used to center the image -->
+            <div class="crust-image-container">
+                <img id="crust" src="assets/crust.png" alt="">
+                <!-- a mask over the crust image -->
+                <div class="crust-mask">
+                    <!-- the crust image is 100% circle and centered, 
+                    any other circle that that is centered will mask this crust -->
+                    <div class="crust-boundary">
+                        <div class="toppings-container"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="toppings-area">
+            <div class="toppings-insertion-button-container">
+                <button id="basil" class="toppings-insertion-button">
+                    <img src="assets/toppings/basil.png" alt="">
+                    <p>Basil</p>
+                </button>
+                <button id="black-olives" class="toppings-insertion-button">
+                    <img src="assets/toppings/black-olives.png" alt="">
+                    <p>Black Olives</p>
+                </button>
+                <button id="cheese" class="toppings-insertion-button">
+                    <img src="assets/toppings/cheese.png" alt="">
+                    <p>Cheese</p>
+                </button>
+                <button id="chili" class="toppings-insertion-button">
+                    <img src="assets/toppings/chili.png" alt="">
+                    <p>Chili</p>
+                </button>
+                <button id="egg" class="toppings-insertion-button">
+                    <img src="assets/toppings/egg.png" alt="">
+                    <p>Egg</p>
+                </button>
+                <button id="green-pepper" class="toppings-insertion-button">
+                    <img src="assets/toppings/green-pepper.png" alt="">
+                    <p>Green-Pepper</p>
+                </button>
+                <button id="mushroom" class="toppings-insertion-button">
+                    <img src="assets/toppings/mushroom.png" alt="">
+                    <p>Mushroom</p>
+                </button>
+                <button id="onion" class="toppings-insertion-button">
+                    <img src="assets/toppings/onion.png" alt="">
+                    <p>Onion</p>
+                </button>
+                <button id="pepperoni" class="toppings-insertion-button">
+                    <img src="assets/toppings/pepperoni.png" alt="">
+                    <p>Pepperoni</p>
+                </button>
+                
+                <button id="pineapple" class="toppings-insertion-button">
+                    <img src="assets/toppings/pinepple.png" alt="">
+                    <p>Pineapple</p>
+                </button>
+                <button id="red-pepper" class="toppings-insertion-button">
+                    <img src="assets/toppings/red-pepper.png" alt="">
+                    <p>Red Pepper</p>
+                </button>
+                <button id="tomato" class="toppings-insertion-button">
+                    <img src="assets/toppings/tomato.png" alt="">
+                    <p>Tomato</p>
+                </button>
+            </div>
+
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
